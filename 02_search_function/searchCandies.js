@@ -15,9 +15,10 @@ const candies = [
 ];
 const searchCandies = (string, price) => {
   return candies.filter(candy => candy['price'] < price)
-  .filter(candy => candy['name'].startsWith(string))
-  .map(candy => candy['name']);
+    .filter(candy => candy['name'].startsWith(string))
+    .map(candy => candy['name']);
 };
 
+console.log(searchCandies("Ma", 10))
 
 module.exports = searchCandies;
