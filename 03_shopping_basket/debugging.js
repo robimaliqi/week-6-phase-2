@@ -2,7 +2,7 @@ const Candy = require("./candy");
 
 class ShoppingBasket {
   constructor() {
-    this.basket = []
+    this.basket = [];
     this.discount = 0;
   }
 
