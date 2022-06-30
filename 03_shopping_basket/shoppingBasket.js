@@ -20,12 +20,12 @@ class ShoppingBasket {
   }
 }
 
-// const candy = new Candy('Mars', 4.99);
+const candy = new Candy('Mars', 4.99);
 
-// const basket = new ShoppingBasket();
+const basket = new ShoppingBasket();
 
-// basket.addItem(candy);
-// basket.addItem(new Candy("chocolate", 5.99));
-// basket.addItem(new Candy("marshmallows", 1.99));
+basket.addItem(candy);
+basket.addItem(new Candy("chocolate", 5.99));
+basket.addItem(new Candy("marshmallows", 1.99));
 
 module.exports = ShoppingBasket;
