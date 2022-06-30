@@ -6,7 +6,7 @@ class Thermostat {
 
   up(){
      if (this.mode == true && this.temperature < 25){
-    this.temperature += 1;
+      this.temperature += 1;
     } else if (this.mode == false && this.temperature < 32){
       this.temperature +=1;
     }
